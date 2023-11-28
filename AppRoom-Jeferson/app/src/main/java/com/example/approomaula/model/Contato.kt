@@ -8,9 +8,6 @@ data class Contato(
     val nome: String = "",
     val sobrenome: String = "",
     val telefone: String = "",
-    val cpf: String = "",
-    val rg: String = "",
-    val rg: Int = 0,
     val adicionarContato: Boolean = false,
     val tipos: Tipos = Tipos.nome
 )
